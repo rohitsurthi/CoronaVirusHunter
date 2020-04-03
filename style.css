@@ -1,0 +1,71 @@
+html{
+    cursor: url("cursor/icon.png"),auto;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: auto;
+    width: auto;
+}
+
+header{
+    background-color:none;
+    height: 10%;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mapdiv{
+    background-color:none;
+    height: 80%;
+}
+#map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600;
+    height: auto;
+    padding-top: 75;
+    background-color: none;
+}
+
+footer{
+    background-color:gray;
+    margin-top: 10px;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+
+  path:hover, circle:hover {
+    stroke: #002868 !important;
+    stroke-width:0;
+    stroke-linejoin: round;
+    fill: red !important;
+    cursor: url("cursor/icon.png");
+  }
+  
+  #info-box {
+    width: auto;
+    height:55px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(57, 110, 255, 0.925);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+  }
