@@ -126,7 +126,7 @@ function lele(ledata){
             infoText.textContent = "Meghalaya";
           break;
         case "IN-JH":
-            infoText.textContent = convo(ledata.data.regional[12]);
+            infoText.textContent = convo(ledata.data.regional[13]);
           break;
       }
     }
